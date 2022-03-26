@@ -11,6 +11,21 @@ body{
     color: var(--color-light) ;
     letter-spacing: .05rem;
 }
+hr{
+    background-color: var(--color-light);
+}
+.boton{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+   
+}
+.lista{
+    justify-content: space-around;
+}
+.boton:focus{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
 .lead-xl{
     font-size: 1.75rem;
 }
