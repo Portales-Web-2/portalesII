@@ -11,8 +11,14 @@ body{
     color: var(--color-light) ;
     letter-spacing: .05rem;
 }
+.letra{
+    color: black;
+}
 .bg-light {
     background-color: var(--color-light);
+}
+.drop{
+    border:none ;
 }
 hr{
     background-color: var(--color-light);
