@@ -11,6 +11,9 @@ body{
     color: var(--color-light) ;
     letter-spacing: .05rem;
 }
+.bg-light {
+    background-color: var(--color-light);
+}
 hr{
     background-color: var(--color-light);
 }
@@ -62,11 +65,11 @@ hr{
     border-right: 1px solid rgba(256, 256, 256, .1) !important;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1350.98px) {
     .sideways {
         margin: 2rem 0;
     }
     .lead-xl {
-        font-size: 1.90rem;
+        font-size: 1.25rem;
     }
 }
