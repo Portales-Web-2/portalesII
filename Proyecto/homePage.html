@@ -13,7 +13,7 @@
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <title >Inicio</title>
+  <title>Inicio</title>
 </head>
 
 <body>
@@ -43,15 +43,15 @@
 
               <div class="dropdown boton">
                 <button style="border: none; padding-top: 9px; padding-left: 10px; font-weight: 200;"
-                  class=" boton lead nav-link" type="button" id="dropdownMenuMenu"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  class=" boton lead nav-link" type="button" id="dropdownMenuMenu" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
                   Categorias
                 </button>
                 <div class="dropdown-menu boton" aria-labelledby="dropdownMenuMenu">
                   <a href="Femenino.html" class="text-decoration-none">
                     <button class="dropdown-item boton " type="button">Damas</button>
                   </a>
-                  
+
                   <a href="Masculino.html" class="text-decoration-none">
                     <button class="dropdown-item boton" type="button">Caballeros</button>
                   </a>
@@ -73,10 +73,10 @@
       <div class="col-lg-1 d-none d-lg-block border-right">
         <div class="d-flex lista">
           <ul class="list-unstyled  ">
-            <li class="sideways"><a href="https://www.instagram.com/?hl=es-la" class="text-light"> Instagram</a></li>
-            <li class="sideways"><a href="https://www.facebook.com" class="text-light"> Facebook</a></li>
-            <li class="sideways"><a href="https://twitter.com" class="text-light"> Twitter</a></li>
-            <li class="sideways"><a href="https://www.whatsapp.com" class="text-light"> WhatsApp</a></li>
+            <li class="sideways"><a href="https://www.instagram.com/?hl=es-la" class="boton"> Instagram</a></li>
+            <li class="sideways"><a href="https://www.facebook.com" class="boton"> Facebook</a></li>
+            <li class="sideways"><a href="https://twitter.com" class="boton"> Twitter</a></li>
+            <li class="sideways"><a href="https://www.whatsapp.com" class="boton"> WhatsApp</a></li>
 
           </ul>
         </div>
@@ -168,7 +168,8 @@
             <div class="col-md-5 col-12">
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example29" placeholder="Email address" class="form-control boton" />
+                <input type="email" id="form5Example29" placeholder="Email address" required
+                  class="form-control boton" />
               </div>
             </div>
             <!--Grid column-->
@@ -176,9 +177,31 @@
             <!--Grid column-->
             <div class="col-auto">
               <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
+              <button type="submit button" class="btn btn-outline-light mb-4" data-toggle="modal"   <!--data-target="#exampleModal"-->
                 Suscribete
               </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content"  style="color: black;">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Suscripción</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Su suscripción ha dicho activada
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
             <!--Grid column-->
           </div>

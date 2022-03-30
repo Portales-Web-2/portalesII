@@ -122,14 +122,14 @@
             <p class="h4 mb-4">Contáctanos</p>
 
             <!-- Name -->
-            <input type="text" id="defaultContactFormName" class="form-control mb-4 boton" placeholder="Nombre">
+            <input type="text" id="defaultContactFormName" class="form-control mb-4 boton" Required minlength="3" placeholder="Nombre">
 
             <!-- Email -->
-            <input type="email" id="defaultContactFormEmail" class="form-control mb-4 boton" placeholder="E-mail">
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-4 boton" Required placeholder="E-mail">
 
             <!-- Subject -->
-            <label>Subject</label>
-            <select class="browser-default custom-select mb-4 boton">
+            <label>Motivo</label>
+            <select class="browser-default custom-select mb-4 boton" Required>
               <option value="" disabled>Escoje una opción</option>
               <option value="1" selected>Información</option>
               <option value="2">Reportar un error</option>
@@ -139,20 +139,12 @@
             <!-- Message -->
             <div class="form-group">
               <textarea class="form-control rounded-0 boton" id="exampleFormControlTextarea2" rows="3"
-                placeholder="Message"></textarea>
+                placeholder="Message" required></textarea>
             </div>
 
-            <!-- Copy -->
-            <div class="custom-control custom-checkbox mb-4">
-              <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy boton">
-              <label class="custom-control-label" for="defaultContactFormCopy">Envíame una copia de este mensaje</label>
-            </div>
-
-            <!-- Send button -->
             <button class="btn btn-info btn-block " type="submit">Enviar</button>
 
           </form>
-          <!-- Default form contact -->
         </div>
       </div>
 
