@@ -24,14 +24,19 @@ hr{
 .boton{
     background-color: var(--color-dark);
     color: var(--color-light);
-   
 }
 .lista{
     justify-content: space-around;
 }
+.boton:hover{
+    background-color: var(--color-dark);
+    color:#1795ff ;
+    text-decoration: none;
+}
 .boton:focus{
     background-color: var(--color-dark);
-    color: var(--color-light);
+     color:#1795ff ;
+     outline:none;
 }
 .lead-xl{
     font-size: 1.75rem;
