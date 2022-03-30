@@ -17,9 +17,7 @@ body{
 .bg-light {
     background-color: var(--color-light);
 }
-.drop{
-    border:none ;
-}
+
 hr{
     background-color: var(--color-light);
 }
