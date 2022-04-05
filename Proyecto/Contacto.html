@@ -58,7 +58,7 @@
                 </div>
               </div>
               <li class="nav-item">
-                <a class="nav-link boton lead" href="#">Sobre Nosotros</a>
+                <a class="nav-link boton lead" href="AcercaNostros.html">Sobre Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link boton lead" href="Contacto.html">Contacto</a>
@@ -81,8 +81,8 @@
         </div>
       </div>
 
-      <div class="col-lg-6">
-        <div class="mapouter">
+      <div class="col-lg-6 col-md-6 col-sm-11 p-1" >
+        <div class="mapouter container align-self-center px-5 content">
           <div class="gmap_canvas">
             <iframe width="600" height="500" id="gmap_canvas"
               src="https://maps.google.com/maps?q=tegucigalpa&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
@@ -95,8 +95,6 @@
               .mapouter {
                 position: relative;
                 text-align: right;
-                height: 500px;
-                width: 600px;
               }
             </style>
             <a href="https://www.embedgooglemap.net">embed google map into website</a>
@@ -104,15 +102,13 @@
               .gmap_canvas {
                 overflow: hidden;
                 background: none !important;
-                height: 500px;
-                width: 600px;
               }
             </style>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-5 d-flex">
+      <div class="col-lg-5 col-md-6 col-sm-11 d-flex p-1">
         <div class="container align-self-center px-5 content">
           <!-- Default form contact -->
           <form class="text-center border border-light p-5" action="#!">
@@ -120,10 +116,12 @@
             <p class="h4 mb-4">Contáctanos</p>
 
             <!-- Name -->
-            <input type="text" id="defaultContactFormName" class="form-control mb-4 boton" pattern="[A-Za-z]" title="Solo se aceptan letras " Required minlength="3" placeholder="Nombre">
+            <input type="text" id="defaultContactFormName" class="form-control mb-4 boton" pattern="[A-Za-z]+" title="Solo se aceptan letras " Required minlength="3" placeholder="Nombre">
 
             <!-- Email -->
             <input type="email" id="defaultContactFormEmail" class="form-control mb-4 boton" Required placeholder="E-mail">
+
+            <input type="number" id="defaultContactFormNumber" class="form-control mb-4 boton" pattern="[0-9]+" title="Solo se aceptan números" minlength="8" Required placeholder="Número">
 
             <!-- Subject -->
             <label>Motivo</label>
