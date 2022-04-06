@@ -9,34 +9,42 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    background-color: var(--color-dark);
+    background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28313.jpg?size=626&ext=jpg&ga=GA1.2.1558626103.1637625600);
+   
     color: var(--color-light) ;
     letter-spacing: .05rem;
 }
+.mapa{
+    padding-top: 45px;
+}
+
 .letra{
     color: black;
 }
-.bg-light {
-    background-color: var(--color-light);
+.bajar{
+    padding-top:50px !important;
+    padding-left: 4;
+    padding-right: 4;
 }
-
-hr{
-    background-color: var(--color-light);
+.formulario{
+    background-color: transparent !important;
 }
 .boton{
-    background-color: var(--color-dark);
     color: var(--color-light);
+    background-color: transparent;
 }
 .lista {
     justify-content: space-around;
 }
 .boton:hover{
-    background-color: var(--color-dark);
     color: var(--color-blue)!important; 
     text-decoration: none !important;;
 }
+.titulo{
+    color: var(--color-blue)!important;
+}
 .boton:focus{
-    background-color: var(--color-dark);
+ 
      color:var(--color-light);
      outline:none;
 }
@@ -63,7 +71,6 @@ hr{
 }
 
 .btn-primary:hover {
-    background-color: var(--color-light);
     color: var(--color-dark);
     border: 1px solid var(--color-light);
 }
