@@ -1,0 +1,27 @@
+:root {
+    --colorTextos: #1b1b1b;
+}
+
+::after {
+    box-sizing: border-box;
+}
+
+.medidas {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.form{
+    background: var(--colorTextos);
+    padding: 40px 0;
+    border-color: #ffffff;
+    border: 1rem;
+
+}
